@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/desktop/image-hero.jpg);
+}
+
+.center {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px 10px;
+
+}
+
+.menuitems {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -80px;
+    right: -20px;
+}
+
+.menu,
+.close {
+    visibility: hidden;
+}
+
+.item li {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    height: 60px;
+}
+
+.item a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.item li ::after {
+    content: "";
+    background: hsl(0, 0%, 100%);
+    width: 0;
+    position: absolute;
+    border-radius: 20px;
+    height: 2px;
+    top: 20px;
+    left: 0px;
+
+
+}
+
+.item li :hover::after {
+    width: 100%;
+}
+
+.head {
+    width: 700px;
+    border: 2px solid hsl(0, 0%, 100%);
+    position: absolute;
+    top: 35%;
+}
+
+.head h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 80px;
+    padding: 20px 40px;
+}
+
+.section-1 {
+    width: 100vw;
+    margin: 12% 0;
+}
+
+.part-1 {
+    width: 90%;
+    margin: auto;
+    position: relative;
+
+}
+
+.prt1-img {
+    width: 900px;
+}
+
+.prt1-desp {
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    left: 42%;
+    top: 40%;
+
+}
+
+.prt1-head {
+    color: hsl(0, 0%, 41%);
+    font-size: 20px;
+    padding: 50px 30px 30px 60px;
+    font-weight: 700;
+}
+
+.prt1-desp p {
+    color: hsl(0, 0%, 55%);
+    font-size: 20px;
+    padding: 0px 30px 0px 60px;
+    font-weight: 400;
+}
+
+.section-1 {
+    width: 100vw;
+}
+
+.creations {
+
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.creat-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-size: 30px;
+    padding: 20px;
+}
+
+button {
+    padding: 8px 20px;
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.creat-items1,
+.creat-items2 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.row img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.row {
+    position: relative;
+
+}
+
+.fig-head {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    width: 120px;
+    color: hsl(0, 0%, 100%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.fig {
+    width: 150px;
+}
+
+.fig1 {
+    width: 200px;
+}
+
+.footer {
+    background-color: hsl(0, 0%, 0%);
+    width: 100vw;
+    position: relative;
+    
+}
+
+.footbar {
+    margin: 3%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+.foot {
+    padding: 10px;
+    padding-left: 0px;
+
+}
+
+.foot li {
+    height: 60px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.head {
+    width: 700px;
+    border: 2px solid hsl(0, 0%, 100%);
+    position: absolute;
+    top: 35%;
+}
+
+.footlink li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+
+}
+
+
+.footlink li ::after {
+    content: "";
+    background: hsl(0, 0%, 100%);
+    width: 0%;
+    position: absolute;
+    border-radius: 20px;
+    height: 4px;
+    top: 33px;
+    left: 0px;
+}
+
+.footlink li :hover:after {
+    width: 100%;
+}
+
+.footlink ul {
+    height: 85px;
+}
+
+.footcopy {
+    margin: 0;
+    color: hsl(0, 0%, 41%);
+}
+
+.footlogo,
+.footlink {
+    margin: 20px;
+}
+
+.footcopy {
+    position: absolute;
+    bottom: 40%;
+    left: 75%;
+}

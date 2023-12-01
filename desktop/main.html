@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Alata" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Loopstudios landing page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="home">
+      <div class="center">
+        <div class="navbar">
+          <div class="logo"><img src="/images/logo.svg" alt="" /></div>
+          <div class="item hide" id="item">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menuitems">
+          <div class="menu" id="menu">
+            <img
+              id="menuimage"
+              src="/images/icon-hamburger.svg"
+              alt="Loading..."
+            />
+          </div>
+          <div class="close" id="close">
+            <img src="/images/icon-close.svg" alt="Loading..." />
+          </div>
+        </div>
+        <div class="head">
+          <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+        </div>
+      </div>
+    </div>
+    <div class="section-1">
+      <div class="part-1">
+        <div class="prt1-img">
+          <img src="/desktop/image-interactive.jpg" alt="" />
+        </div>
+        <div class="prt1-desp">
+          <div class="prt1-head">
+            <h1>THE LEADER IN INTERACTIVE VR</h1>
+          </div>
+          <div class="para">
+            <p>
+              Founded in 2011, Loopstudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-2">
+      <div class="creations">
+        <div class="creat-head">
+          <div class="heading"><h1>OUR CREATIONS</h1></div>
+          <div class="button">
+            <button>SEE ALL</button>
+          </div>
+        </div>
+        <div class="creat-items1">
+          <div class="row">
+            <figure>
+              <figcaption><h1 class="fig-head">DEEP EARTH</h1></figcaption>
+              <img src="/desktop/image-deep-earth.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <figcaption>
+                <h1 class="fig-head fig">NIGHT ARCADE</h1>
+              </figcaption>
+              <img src="/desktop/image-night-arcade.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <figcaption>
+                <h1 class="fig-head fig">SOCCER TEAM VR</h1>
+              </figcaption>
+              <img src="/desktop/image-soccer-team.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <figcaption><h1 class="fig-head">THE GRID</h1></figcaption>
+              <img src="/desktop/image-grid.jpg" alt="" />
+            </figure>
+          </div>
+        </div>
+        <div class="creat-items2">
+          <div class="row">
+            <figure>
+              <figcaption>
+                <h1 class="fig-head fig1">FROM UP ABOVE VR</h1>
+              </figcaption>
+              <img src="/desktop/image-from-above.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <figcaption>
+                <h1 class="fig-head fig1">POCKET BOREALIS</h1>
+              </figcaption>
+              <img src="/desktop/image-pocket-borealis.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <figcaption>
+                <h1 class="fig-head fig1">THE CURIOSITY</h1>
+              </figcaption>
+              <img src="/desktop/image-curiosity.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <figcaption>
+                <h1 class="fig-head fig">MAKE IT FISHEYE</h1>
+              </figcaption>
+              <img src="/desktop/image-fisheye.jpg" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footbar">
+        <div class="footlogo">
+          <img src="/images/logo.svg" alt="" />
+          <div class="foot">
+            <ul>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="">CAREERS</a></li>
+              <li><a href="">EVENTS</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">SUPPORT</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footlink">
+          <ul>
+            <li>
+              <a href=""><img src="/images/icon-facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="/images/icon-twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="/images/icon-pinterest.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="/images/icon-instagram.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footcopy">
+          <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuitem = document.getElementById("item");
+      const card1 = document.getElementById("menu");
+      const img = document.getElementById("menuimage");
+      const clos = document.getElementById("close");
+      card1.addEventListener("click", () => {
+        menuitem.classList.toggle("hide");
+        img.classList.toggle("hide");
+        clos.classList.toggle("hide2");
+      });
+      clos.addEventListener("click", () => {
+        menuitem.classList.toggle("hide");
+        img.classList.toggle("hide");
+        clos.classList.toggle("hide2");
+      });
+    </script>
+  </body>
+</html>

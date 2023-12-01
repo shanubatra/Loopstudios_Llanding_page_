@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.home {
+    background-image: url(/mobile/image-hero.jpg);
+    width: 375px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.center {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuitems {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -30px;
+    right: 0px;
+}
+
+.menu {
+    margin-left: 70px;
+}
+
+.close {
+    visibility: hidden;
+}
+
+.item li {
+    margin: 5px;
+    height: auto;
+    display: block;
+}
+
+.item a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    width: 90px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.item {
+    background: hsl(0, 0%, 0%);
+    position: absolute;
+    width: 99.3%;
+    top: 90px;
+    left: 0;
+    transition: translate 2.5s ease-in;
+    padding: 10px;
+    z-index: 1;
+}
+
+.item li ::after {
+    content: "";
+    background: hsl(0, 0%, 100%);
+    width: 0;
+    position: absolute;
+    border-radius: 20px;
+    height: 2px;
+    top: 20px;
+    left: 0px;
+
+
+}
+
+.item li :hover::after {
+    width: 100%;
+}
+
+.head {
+    width: 89%;
+    border: 2px solid hsl(0, 0%, 100%);
+
+    height: 200px;
+}
+
+.head h1 {
+    font-size: 40px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.hide2 {
+    visibility: visible;
+}
+
+.menu {
+    display: block;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.section-1 {
+    width: 375px;
+    height: 500px;
+}
+
+.part-1 img {
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+.prt1-desp {
+    width: 300px;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.prt1-head {
+    padding: 0;
+    margin: 10px 0;
+    color: hsl(0, 0%, 41%);
+}
+
+.prt1-head h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.prt1-desp p {
+    font-size: 16px;
+    padding: 0px;
+    margin: 10px 0;
+    text-align: center;
+    color: hsl(0, 0%, 55%);
+}
+
+.section-2 {
+    width: 375px;
+    position: relative;
+}
+
+.heading {
+    font-size: 20px;
+    padding: 20px;
+}
+
+button {
+    padding: 8px 20px;
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 103%;
+    right: 30%;
+}
+
+.creat-items1,
+.creat-items2 {
+    margin: 10px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.row img {
+    width: 360px;
+    height: 130px;
+    cursor: pointer;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.row {
+    position: relative;
+}
+
+.fig-head {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 100px;
+    color: hsl(0, 0%, 100%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.fig1,
+.fig {
+    width: 200px;
+}
+
+.creat-items2 {
+    margin-bottom: 40%;
+}
+
+.footbar {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: hsl(0, 0%, 0%);
+    width: 375px;
+    height: 370px;
+    position: relative;
+}
+
+.footlogo {
+    padding: 20px 40px;
+
+}
+
+.footbar {
+    flex-wrap: wrap;
+}
+
+.foot {
+    margin-left: 50px;
+    width: 100px;
+}
+
+.footlink li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+
+}
+
+
+.footlink li ::after {
+    content: "";
+    background: hsl(0, 0%, 100%);
+    width: 0%;
+    position: absolute;
+    border-radius: 20px;
+    height: 4px;
+    top: 33px;
+    left: 0px;
+}
+
+.footlink li :hover:after {
+    width: 100%;
+}
+
+.footlink ul {
+    height: 85px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.footcopy {
+    margin: 0;
+    color: hsl(0, 0%, 41%);
+}
+
+.foot li {
+    margin: 10px;
+    height: 30px;
+}
+
+.footlink {
+    margin: 0 70px;
+
+}
+
+.footlink ul {
+    height: 40px;
+}
+
+.footlink li {
+    margin: 6px;
+}
+
+.footcopy {
+    width: 90%;
+    margin: 10px;
+    position: relative;
+    left: 1px;
+}
